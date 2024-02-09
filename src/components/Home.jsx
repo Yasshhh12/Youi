@@ -9,7 +9,6 @@ import img4 from "../images/4.jpg"
 import img5 from "../images/5.png"
 
 const HeadingOptions={
-  
     pos:"absolute",
     left:"50%",
     top:"50%",
@@ -17,7 +16,6 @@ const HeadingOptions={
     textTransform:"uppercase",
     p:'4',
     size:'4xl'
-  
 }
 
 const Home = () => {
