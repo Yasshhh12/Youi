@@ -9,7 +9,7 @@ const Footer = () => {
      <Stack direction={['column','row']}>
       <VStack alignItems={'stretch'} w={'full'} px={'4'}>
 
-       <Heading size={'md'} textTransform={'uppercase'}>
+       <Heading size={'md'} textTransform={'uppercase'} textAlign={['center','left']}>
         Subscribe to get updates
        </Heading>
 
@@ -34,9 +34,24 @@ const Footer = () => {
         <Text>@All Rights Reserved</Text>
       </VStack>
 
-      <VStack w={'full'} 
-       
-      ></VStack>
+      <VStack w={'full'}>
+        <Heading size={'md'} textTransform={'uppercase'}>
+          Social Media
+        </Heading>
+
+        <Button variant={'link'} colorScheme='white'>
+         <a href='https://www.youtube.com/watch?v=yu6znyzeoMQ'>Youtube</a>
+        </Button>
+
+        <Button variant={'link'} colorScheme='white'>
+         <a href='https://www.youtube.com/watch?v=yu6znyzeoMQ'>Instagram</a>
+        </Button>
+
+        <Button variant={'link'} colorScheme='white'>
+         <a href='https://github.com/Yasshhh12'>Github</a>
+        </Button>
+
+      </VStack>
 
      </Stack>
 
