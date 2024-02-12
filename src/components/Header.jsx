@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <Button pos={'fixed'} top={4} left={'4'}  p={'0'} h={'10'} w={'10'} borderRadius={'full'} onClick={onOpen}>
+      <Button pos={'fixed'} top={4} left={'4'}  p={'0'} h={'10'} w={'10'} borderRadius={'full'} onClick={onOpen} zIndex={'overlay'}>
       <BiMenuAltLeft />
       </Button>
 
